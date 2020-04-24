@@ -1,7 +1,7 @@
 {
-  "name": "reactexpress",
+  "name": "React Express Starter Latest",
   "version": "1.0.0",
-  "description": "Starter kit for creating React/Redux and Express apps",
+  "description": "Starter kit for creating for creating MERN",
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",
@@ -10,12 +10,12 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Brad Traversy & Gregory Assasie",
-  "license": "MIT",
-  "devDependencies": {},
+  "author": "Aniket Chauhan",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
   "dependencies": {
     "concurrently": "^4.1.1",
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1"
+    "express": "^4.17.1"
   }
 }

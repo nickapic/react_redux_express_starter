@@ -1,6 +1,3 @@
-import {combineReducers} from 'redux';
-import customerReducer from './customer';
+import { combineReducers } from "redux";
 
-export default combineReducers({
-  customers: customerReducer
-})
+export default combineReducers({});
